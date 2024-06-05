@@ -1,12 +1,10 @@
-Descrizione:
-Attraverso l'apposita API di Boolean, usando axios, con chiamata GET a questo indirizzo https://flynn.boolean.careers/exercises/api/random/mail generare 10 indirizzi email e stamparli in pagina all'interno di una lista.
-Bonus
-Far comparire gli indirizzi email solamente quando sono stati tutti generati.
 
+1. settare Vue
+    - creare un array vuoto che conterra' le mail generate
 
+2. creare un metodo che permetta di generare le mail
+    - utilizzare un ciclo for per generare 10 indirizzi email
 
-1. Creare un nuovo progetto con il comando npm init -y  
-2. Installare axios con il comando npm install axios    
-3. Creare un file index.js e inserire il codice sopra riportato.
-4. Eseguire il comando npm run dev per avviare il server.
-5. Aprire il browser e digitare http://localhost:3000/
+3. settare un timer in modo che le mail vengano stampate tutte assieme senza delay
+
+4. stampare su pagina web le mail generate
